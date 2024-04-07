@@ -208,11 +208,11 @@ function ItineraryTab({ country, setCountry, startDate, setStartDate, endDate, s
 
 
             <FormControl fullWidth>
-              <InputLabel id="country-select-label">Select Country</InputLabel>
+              <InputLabel id="country-select-label">Select Destination</InputLabel>
               <Select
                 labelId="country-select-label"
                 value={country}
-                label="Select Country"
+                label="Select Destination"
                 onChange={handleCountryChange}
               >
                 <MenuItem value="">

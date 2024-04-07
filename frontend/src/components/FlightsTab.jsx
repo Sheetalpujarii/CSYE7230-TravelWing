@@ -86,9 +86,7 @@ function FlightsTab({ country, setCountry,destCountry, setDestinationCountry, st
                 <MenuItem value="">
                   <em>None</em>
                 </MenuItem>
-                <MenuItem value="PAR">Paris</MenuItem>
-                <MenuItem value="JFK">New York</MenuItem>
-                <MenuItem value="BKK">Bangkok</MenuItem>
+                <MenuItem value="BOS">Boston</MenuItem>
                 <MenuItem value="BLR">Bangalore</MenuItem>
               </Select>
             </FormControl>
@@ -107,7 +105,6 @@ function FlightsTab({ country, setCountry,destCountry, setDestinationCountry, st
                     <MenuItem value="PAR">Paris</MenuItem>
                     <MenuItem value="JFK">New York</MenuItem>
                     <MenuItem value="BKK">Bangkok</MenuItem>
-                    <MenuItem value="BLR">Bangalore</MenuItem>
                 </Select>
             </FormControl>
 

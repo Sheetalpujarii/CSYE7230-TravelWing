@@ -7,7 +7,7 @@ import About from './components/About';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Itinerary from './components/TravelPlanner';
-
+import ItineraryList from './components/SavedItinerarys'
 
 // import usecontext
 import { useAuth } from './context/AuthContext';
@@ -25,6 +25,8 @@ function App() {
           <Route path="/itinerary" element={<Itinerary />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/saved" element={<ItineraryList />} />
+
         </Routes>
     </Router>
     </div>

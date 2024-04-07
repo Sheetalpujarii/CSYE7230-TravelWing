@@ -1,0 +1,13 @@
+process.env.PORT = '3000';
+process.env.NODE_ENV = 'test';
+process.env.CHATGPT_KEY = 'mock_chatgpt_key';
+process.env.MONGODB_URI = 'mock_mongodb_uri';
+process.env.FIREBASE_API_KEY = 'mock_firebase_api_key';
+process.env.FIREBASE_AUTH_DOMAIN = 'mock_firebase_auth_domain';
+process.env.FIREBASE_PROJECT_ID = 'mock_firebase_project_id';
+process.env.FIREBASE_STORAGE_BUCKET = 'mock_firebase_storage_bucket';
+process.env.FIREBASE_MESSAGING_SENDER_ID = 'mock_firebase_messaging_sender_id';
+process.env.FIREBASE_APP_ID = 'mock_firebase_app_id';
+process.env.FIREBASE_MEASUREMENT_ID = 'mock_firebase_measurement_id';
+process.env.AMADEUS_CLIENT_ID = 'mock_amadeus_client_id';
+process.env.AMADEUS_CLIENT_SECRET = 'mock_amadeus_client_secret';
