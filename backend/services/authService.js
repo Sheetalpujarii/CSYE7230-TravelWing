@@ -3,13 +3,6 @@ const admin = require('firebase-admin');
 const User = require('../models/userModel');
 
 const createUser = async (email, password, fname, lname) => {
-  // const userResponse = await admin.auth().createUser({
-  //   email,
-  //   password,
-  //   emailVerified: false,
-  //   disabled: false,
-  // });
-
   const hashedPassword = await bcrypt.hash(password, 10);
 
   const newUser = new User({
