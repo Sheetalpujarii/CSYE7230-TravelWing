@@ -2,7 +2,7 @@ const fs = require('fs');
 const pdf = require('html-pdf');
 const axios = require('axios');
 
-const auth = { username: "app", password: "b0fdf7e556051229ef144d593a4e1d664-4b670513-7e34efbc" };
+const auth = { username: "app", password: "random"};
 
 
 const sendEmailWithPDF = async (data) => {
